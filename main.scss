@@ -33,7 +33,7 @@ header{
     display: grid;
     justify-content: center;
     align-content: center;
-    background: url(/dist/images/Thabile5.jpg);
+    background: url(../images/Thabile5.jpg);
     background-position: center center;
     background-size: cover;
 }
@@ -64,7 +64,7 @@ header{
         color: $secondary-color;
         font-weight: 500;
         font-size: 24px;
-        color: $tertiary-color;
+        color: $primary-color;
     }
    
     

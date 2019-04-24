@@ -5,9 +5,10 @@
     cursor: pointer;
     z-index: 4;
     border: solid 2px darken($primary-color, 8);
-    padding: 2%;
-    border-radius: 5px;
+    padding: 7px;
+    // border-radius: 5px;
     transition: all ease-in 0.5s;
+    // background: $secondary-color;
 
     .btn-line{
         margin-bottom: 5px;
@@ -23,7 +24,8 @@
     // Rotate into x with menu lines
     &.close{
         transform: rotate(180deg);
-        border: none;
+        // border: none;
+        background: none;
 
         .btn-line{
             &:nth-child(1){
