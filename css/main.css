@@ -5,8 +5,7 @@
   cursor: pointer;
   z-index: 4;
   border: solid 2px #fdb3ab;
-  padding: 2%;
-  border-radius: 5px;
+  padding: 7px;
   -webkit-transition: all ease-in 0.5s;
   transition: all ease-in 0.5s;
 }
@@ -25,7 +24,7 @@
 .menu-btn.close {
   -webkit-transform: rotate(180deg);
           transform: rotate(180deg);
-  border: none;
+  background: none;
 }
 
 .menu-btn.close .btn-line:nth-child(1) {
@@ -163,7 +162,7 @@ header {
           justify-content: center;
   -ms-flex-line-pack: center;
       align-content: center;
-  background: url(/dist/images/Thabile5.jpg);
+  background: url(../images/Thabile5.jpg);
   background-position: center center;
   background-size: cover;
 }
@@ -196,7 +195,7 @@ header {
   color: #000000;
   font-weight: 500;
   font-size: 24px;
-  color: #F6F1F1;
+  color: #FED7D3;
 }
 
 .details-left {
